@@ -20,12 +20,6 @@ define('my-app', class extends WeElement {
     return (
       <div class="app">
         <header class="app-header">
-          <img
-            src={logo}
-            onClick={this.clickHandler}
-            class="app-logo"
-            alt="logo"
-          />
           <h1 class="app-title">Welcome to {store.data.name}</h1>
         </header>
         <app-intro />
