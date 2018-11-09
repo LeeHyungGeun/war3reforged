@@ -1,5 +1,5 @@
 export default {
-  data: { name: 'Omi' },
+  data: { name: 'War3Reforged' },
   rename(name) {
     this.data.name = name
   }
